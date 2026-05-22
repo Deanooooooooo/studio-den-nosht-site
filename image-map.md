@@ -1,20 +1,22 @@
 # Image Map — Студио Ден и нощ
 
-| File | Subject | Orientation | Trust | Crop risk | Use |
-|---|---|---:|---|---|---|
-| `photo-01.webp` | Elegant pink manicure, orchid background | portrait | strong beauty result | keep nails/fingers intact; do not force wide | hero |
-| `photo-02.webp` | Lash/brow result collage | landscape/square | strong service proof | divider and cropped face; use in landscape/detail card | lash/brow card |
-| `photo-03.webp` | Seasonal red nail art | landscape | decent but seasonal | holiday feel; avoid primary | unused/optional |
-| `photo-04.webp` | Pink nails with TikTok watermark | portrait | weaker | watermark, duplicate | reject |
-| `photo-05.webp` | Orange/white nail art | landscape | strong creative proof | busy background | gallery |
-| `photo-06.webp` | Duplicate pink nails with TikTok watermark | portrait | weaker | duplicate/watermark | reject |
-| `photo-07.webp` | Salon interior/workstations | landscape | strong location trust | wide ceiling/floor; crop as 16:10 | location/about |
-| `photo-08.webp` | Blue/nude botanical nail art | square | strong clean result | fingers near edge; keep square/4:3 | gallery |
-| `photo-09.webp` | Lash extension close-up collage | landscape/square | strong proof | similar to #2; use only one or pair deliberately | gallery |
-| `photo-10.webp` | Blue glitter nails with branded cards | landscape | strongest trust/result proof | don't crop out cards/nails | gallery/contact proof |
+Strict remap after QA. Only images that support a calm salon marketing page are allowed.
 
-## Placement
-- Hero: #1 in portrait frame beside copy.
-- Gallery: #10, #8, #5, #2, #7, #9. Exclude #4/#6 duplicates/watermark and #3 seasonal unless needed.
-- All non-hero images are landscape/square and use matched frames; no random stretching.
-- Testimonials: no direct fake quotes; use review themes with stars only.
+| File | Aspect / dimensions | Subject | Verdict | Why | Frame / crop | Placement |
+|---|---:|---|---|---|---|---|
+| `photo-01.webp` | portrait-ish 2301×2500 | soft pink manicure with orchid background | KEEP | strongest elegant service-result image; visually premium if softened | portrait 4:5 / 3:4, object-position `center 58%`, soft overlay | hero |
+| `photo-02.webp` | square 1511×1511 | lash/brow comparison collage | REJECT | close-up eyes feel harsh/clinical; split-line collage hurts polish | — | unused |
+| `photo-03.webp` | portrait-ish 2441×2500 | red seasonal teddy nail art | REJECT | loud, seasonal, cartoonish, visually noisy | — | unused |
+| `photo-04.webp` | vertical 576×1024 | pink nails with TikTok watermark | REJECT | watermark/social screenshot, weak background | — | unused |
+| `photo-05.webp` | landscape 1170×1001 | orange/animal-print nail art | REJECT | aggressive orange palette, busy and noisy | — | unused |
+| `photo-06.webp` | vertical 576×1024 | duplicate TikTok pink nails | REJECT | duplicate + watermark | — | unused |
+| `photo-07.webp` | landscape 1600×1200 | salon interior/workstations | KEEP | real place/trust proof; not hero-level beautiful but useful | landscape 4:3 / 16:10, crop away clutter, warm overlay | studio/location trust section |
+| `photo-08.webp` | vertical/square 1440×1634 | pastel blue/beige floral nail art | KEEP | best balanced nail-work image; soft palette, clean proof | square or 4:5, preserve full nails | featured work |
+| `photo-09.webp` | square 1031×1032 | lash extension collage | REJECT | intense eye close-up, similar to #2, glare | — | unused |
+| `photo-10.webp` | portrait-ish 2411×2500 | blue glitter nails over branded cards | REJECT | cluttered, glitter-heavy, visually loud | — | unused |
+
+## Final placement system
+- Use **only three images**: #1 hero, #8 featured manicure, #7 studio interior.
+- No dark gallery wall, no eye close-ups, no loud red/orange/glitter, no watermarks, no duplicate subjects.
+- Services and testimonial cards are text-first with large bold headings, not numbered badges.
+- Testimonials must be visible as a designed section. Use verified review themes only; no invented reviewer names or fake quotes.
