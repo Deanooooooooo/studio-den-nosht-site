@@ -21,3 +21,11 @@ Selected from canonical sheet: `google-places-hairdressers.numbers`, row 19.
 - No explanatory source/process copy.
 - No fake named testimonial quotes. Use evergreen review-theme cards based on visible public review summary language, not presented as direct quotes.
 - Focus positioning on beauty/nails/lashes/student city location because the strongest photos show nails/lashes and one interior shot.
+
+## Google testimonial source — verified
+- Source used for extractable Google review text: Wanderlog mirror of Google reviews for Day & Night STUDIO (`https://wanderlog.com/de/place/details/4591987/day--night-studio`) plus Google Maps review links embedded per review.
+- Added only real public reviewer names and original quote excerpts:
+  - Mariyana S — 5/5 Google review; excerpt about Alexandra, manicures, careful/precise work.
+  - Danaya B — 5/5 Google review; excerpt about balayage/highlights and kind team.
+  - Iliyana D — 5/5 Google review; excerpt about precise service and attention to detail.
+- Did not use Oink AI summary as testimonials.
